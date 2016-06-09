@@ -1,0 +1,27 @@
+{
+    "name": "webcore/snitcher",
+    "description": "Simple API client for Dead Man's Snitch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Štefan Peťovský",
+            "email": "stefan.petovsky@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webcore\\Snitcher\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "webcore/validation-traits": "^1.0",
+        "php-http/client-implementation": "^1.0",
+        "php-http/message-factory": "^1.0.2",
+        "guzzlehttp/psr7": "^1.3.0"
+    },
+    "suggest": {
+        "php-http/guzzle6-adapter": "Implementation of HttpClient adapter using Guzzle",
+        "php-http/message": "Implementations of MessageFactory, StreamFactory and UriFactory"
+    }
+}
