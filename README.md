@@ -2,6 +2,9 @@
 
 Simple API client for [Dead Man's Snitch](https://deadmanssnitch.com) inspired by official [Ruby client](https://github.com/deadmanssnitch/snitcher)
 
+[![Dependency Status](https://www.versioneye.com/user/projects/57595ef47757a00041b3b2ee/badge.svg?style=plastic)](https://www.versioneye.com/user/projects/57595ef47757a00041b3b2ee)
+[![license](https://img.shields.io/github/license/webcore/snitcher.svg?maxAge=2592000)](https://opensource.org/licenses/MIT)
+
 ## Install
 
 Via Composer
